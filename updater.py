@@ -201,11 +201,8 @@ def update_resume():
         \resumeItemListEnd
     \end{document}
     ''' % {'rep': reputation, 'keys[0]':  format(keys[0]), "data['5']": format(data['5']), 'keys[1]': format(keys[1]), "data['20']": format(data['20'])}
-          # (keys[0], data['5'], keys[1], data['20'])
 
-    # print(tex)
     ltx = requests.get(f'https://latexonline.cc/compile?text={quote_plus(tex)}&force=true')
-    # print('Status code: ',ltx.status_code)
     with open('vaibhav_resume.pdf', 'wb') as f:
         print(ltx.content)
         f.write(ltx.content)
