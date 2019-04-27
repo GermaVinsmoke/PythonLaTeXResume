@@ -96,7 +96,7 @@ def update_resume():
         \end{tabular*}
     
     \section{Objective}
-            {Seeking employment in a fast growing organization so as to hone my tecnical skills and attaining excellent standards while meeting organizational needs.}
+            {Seeking employment in a fast growing organization so as to hone my technical skills and attaining excellent standards while meeting organizational needs.}
     
     \section{Education}
           \resumeSubHeadingListStart
