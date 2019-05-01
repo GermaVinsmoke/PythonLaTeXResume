@@ -91,9 +91,10 @@ def update_resume():
     \begin{document}
     
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
-          \textbf{}{\Large Vaibhav Dangra} & E-mail - \href{mailto:vaibhav1180@gmail.com}{vaibhav1180@gmail.com} \\
-            \today & Phone - +91-87-5069-3452 \\
-        \end{tabular*}
+        \textbf{}{\Large Vaibhav Dangra} & E-mail - \href{mailto:vaibhav1180@gmail.com}{vaibhav1180@gmail.com} \\
+        \href{https://github.com/GermaVinsmoke}{Github - GermaVinsmoke} & Phone - +91-87-5069-3452 \\
+	    \today
+    \end{tabular*}
     
     \section{Objective}
             {Seeking employment in a fast growing organization so as to hone my technical skills and attaining excellent standards while meeting organizational needs.}
@@ -115,7 +116,7 @@ def update_resume():
               {\color{lightGray}Gurugram, India}
               {All India Secondary School Examination, CBSE;  CGPA: 10/10}
               {\color{lightGray}May 2014}
-              \vspace{-3.5mm}
+              %\vspace{-3.5mm}
           \resumeSubHeadingListEnd
     
     \section{Work Experience}
@@ -184,6 +185,16 @@ def update_resume():
              \vspace{-1.5mm}
              \resumeItemListEnd
              {\color{darkGray} Technologies: ReactJS, Redux, MaterializeCSS, HTML, CSS, Heroku, Git}
+          \resumeSubheading
+		    {\href{https://github.com/GermaVinsmoke/PythonLaTeXResume}{Dynamic Resume}}
+		    {\color{lightGray}Personal project}
+		    {Web Scraping and \LaTeX}
+		    {\color{lightGray}April 2019}
+		    \resumeItemListStart
+		     \item{A dynamic resume which updates as per the new changes provided by the Python}
+		     \vspace{-1.5mm}
+		     \resumeItemListEnd
+		     {\color{darkGray} Technologies: Python, Requests, BeautifulSoup, Flask, Heroku, Git, StackExchange API and \LaTeX}
         \resumeSubHeadingListEnd
     
     \section{Strengths}
