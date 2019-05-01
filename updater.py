@@ -93,122 +93,122 @@ def update_resume():
     \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
         \textbf{}{\Large Vaibhav Dangra} & E-mail - \href{mailto:vaibhav1180@gmail.com}{vaibhav1180@gmail.com} \\
         \href{https://github.com/GermaVinsmoke}{Github - GermaVinsmoke} & Phone - +91-87-5069-3452 \\
-        \today
+	    \today
     \end{tabular*}
     
     \section{Objective}
             {Seeking employment in a fast growing organization so as to hone my technical skills and attaining excellent standards while meeting organizational needs.}
     
     \section{Education}
-        \resumeSubHeadingListStart
+          \resumeSubHeadingListStart
+        \resumeSubheading
+          {The Northcap University}
+          {\color{lightGray}Gurugram, India}
+          {Bachelor of Technology, Computer Science, CGPA: 8.41}
+          {\color{lightGray}2016-2020}
             \resumeSubheading
-                {The Northcap University}
-                {\color{lightGray}Gurugram, India}
-                {Bachelor of Technology, Computer Science, CGPA: 8.41}
-                {\color{lightGray}2016-2020}
+              {Greenwood Public School}
+              {\color{lightGray}Gurugram, India}
+              {All India Senior School Certificate Examination, CBSE, Percentage: 89.2}
+              {\color{lightGray}May 2016}
             \resumeSubheading
-                {Greenwood Public School}
-                {\color{lightGray}Gurugram, India}
-                {All India Senior School Certificate Examination, CBSE, Percentage: 89.2}
-                {\color{lightGray}May 2016}
-            \resumeSubheading
-                {Greenwood Public School}
-                {\color{lightGray}Gurugram, India}
-                {All India Secondary School Examination, CBSE;  CGPA: 10/10}
-                {\color{lightGray}May 2014}
-                %\vspace{-3.5mm}
-        \resumeSubHeadingListEnd
+              {Greenwood Public School}
+              {\color{lightGray}Gurugram, India}
+              {All India Secondary School Examination, CBSE;  CGPA: 10/10}
+              {\color{lightGray}May 2014}
+              %\vspace{-3.5mm}
+          \resumeSubHeadingListEnd
     
     \section{Work Experience}
-        \resumeSubHeadingListStart
+          \resumeSubHeadingListStart
             \resumeSubheading
-                {Mobile App Development}
-                {\color{lightGray}Pizza Hut, Gamma Pizzakraft Pvt. Ltd.}
-                {UI/UX Developer}
-                {\color{lightGray}May 2018 - September 2018}
-                \resumeItemListStart
-                    \item{Unity based Android application for some lucky customers}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray}Technologies: Unity, Unity Script, Blender, Adobe Photoshop, Git}
-            \resumeSubheading
-                {Software Development}
-                {\color{lightGray}Padhle.com (Online Edu. Portal)}
-                {Web Scraping}
-                {\color{lightGray}July 2018 - August 2018}
-                \resumeItemListStart
-                    \item{Web scraping in order to download PDF files}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray}Technologies: Python, Selenium, BeautifulSoup, Requests, Git}
-                \resumeSubHeadingListEnd
+              {Mobile App Development}
+          {\color{lightGray}Pizza Hut, Gamma Pizzakraft Pvt. Ltd.}
+          {UI/UX Developer}
+          {\color{lightGray}May 2018 - September 2018}
+          \resumeItemListStart
+           \item{Unity based Android application for some lucky customers}
+           \vspace{-1.5mm}
+          \resumeItemListEnd
+          {\color{darkGray}Technologies: Unity, Unity Script, Blender, Adobe Photoshop, Git}
+        \resumeSubheading
+              {Software Development}
+          {\color{lightGray}Padhle.com (Online Edu. Portal)}
+          {Web Scraping}
+          {\color{lightGray}July 2018 - August 2018}
+          \resumeItemListStart
+           \item{Web scraping in order to download PDF files}
+           \vspace{-1.5mm}
+          \resumeItemListEnd
+          {\color{darkGray}Technologies: Python, Selenium, BeautifulSoup, Requests, Git}
+          \resumeSubHeadingListEnd
     
     \section{Projects}
         \resumeSubHeadingListStart
-            \resumeSubheading
-                {\href{https://www.github.com/GermaVinsmoke/PhraseMakerJava}{Phrase Generator}}
-                {\color{lightGray}Personal project}
-                {Genetic Algorithm}
-                {\color{lightGray}April 2018 - June 2018}
-                \resumeItemListStart
-                    \item{Generates the desired phrase with the help of {\textbf {Selection}}, {\textbf {Crossover}} and {\textbf{Mutation}}}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray}Technology: Java}
-            \resumeSubheading
-                {\href{https://www.github.com/GermaVinsmoke/Movie-Rating-Analysis}{Movie Rating Analysis}}
-                {\color{lightGray}Personal project}
-                {Web Scraping and IMDb API}
-                {\color{lightGray}Oct 2018 - Present}
-                \resumeItemListStart
-                    \item{CLI based app for comparing movie ratings}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray}Technologies: Python, IMDb API, Requests, BeautifulSoup, Matplotlib}
-            \resumeSubheading
-                {Virtual Classroom}
-                {\color{lightGray}BTech Major project}
-                {Website Development}
-                {\color{lightGray}Jan 2019 - Present}
-                \resumeItemListStart
-                    \item{Live streaming web-based app in order to enhance the learning of students with features like live lectures, discussion forums and content sharing}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
-            \resumeSubheading
-                {\href{https://www.github.com/GermaVinsmoke/Reactize}{Reactize}}
-                {\color{lightGray}Personal project}
-                {FrontEnd Development}
-                {\color{lightGray}March 2019}
-                \resumeItemListStart
-                    \item{Implementation of MaterializeCSS JS components in ReactJS}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray} Technologies: ReactJS, Redux, MaterializeCSS, HTML, CSS, Heroku, Git}
-            \resumeSubheading
-                {\href{https://github.com/GermaVinsmoke/PythonLaTeXResume}{Dynamic Resume}}
-                {\color{lightGray}Personal project}
-                {Web Scraping and \LaTeX}
-                {\color{lightGray}April 2019}
-                \resumeItemListStart
-                    \item{A dynamic resume which updates as per the new changes provided by the Python}
-                    \vspace{-1.5mm}
-                \resumeItemListEnd
-                {\color{darkGray} Technologies: Python, Requests, BeautifulSoup, Flask, Heroku, Git, StackExchange API and \LaTeX}
+          \resumeSubheading
+            {\href{https://www.github.com/GermaVinsmoke/PhraseMakerJava}{Phrase Generator}}
+            {\color{lightGray}Personal project}
+            {Genetic Algorithm}
+            {\color{lightGray}April 2018 - June 2018}
+            \resumeItemListStart
+             \item{Generates the desired phrase with the help of {\textbf {Selection}}, {\textbf {Crossover}} and {\textbf{Mutation}}}
+             \vspace{-1.5mm}
+            \resumeItemListEnd
+            {\color{darkGray}Technology: Java}
+          \resumeSubheading
+            {\href{https://www.github.com/GermaVinsmoke/Movie-Rating-Analysis}{Movie Rating Analysis}}
+            {\color{lightGray}Personal project}
+            {Web Scraping and IMDb API}
+            {\color{lightGray}Oct 2018 - Present}
+            \resumeItemListStart
+             \item{CLI based app for comparing movie ratings}
+             \vspace{-1.5mm}
+            \resumeItemListEnd
+            {\color{darkGray}Technologies: Python, IMDb API, Requests, BeautifulSoup, Matplotlib}
+          \resumeSubheading
+            {Virtual Classroom}
+            {\color{lightGray}BTech Major project}
+            {Website Development}
+            {\color{lightGray}Jan 2019 - Present}
+            \resumeItemListStart
+             \item{Live streaming web-based app in order to enhance the learning of students with features like live lectures, discussion forums and content sharing}
+             \vspace{-1.5mm}
+            \resumeItemListEnd
+            {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
+          \resumeSubheading
+            {\href{https://www.github.com/GermaVinsmoke/Reactize}{Reactize}}
+            {\color{lightGray}Personal project}
+            {FrontEnd Development}
+            {\color{lightGray}March 2019}
+            \resumeItemListStart
+             \item{Implementation of MaterializeCSS JS components in ReactJS}
+             \vspace{-1.5mm}
+             \resumeItemListEnd
+             {\color{darkGray} Technologies: ReactJS, Redux, MaterializeCSS, HTML, CSS, Heroku, Git}
+          \resumeSubheading
+		    {\href{https://github.com/GermaVinsmoke/PythonLaTeXResume}{Dynamic Resume}}
+		    {\color{lightGray}Personal project}
+		    {Web Scraping and \LaTeX}
+		    {\color{lightGray}April 2019}
+		    \resumeItemListStart
+		     \item{A dynamic resume which updates as per the new changes provided by the Python}
+		     \vspace{-1.5mm}
+		     \resumeItemListEnd
+		     {\color{darkGray} Technologies: Python, Requests, BeautifulSoup, Flask, Heroku, Git, StackExchange API and \LaTeX}
         \resumeSubHeadingListEnd
     
     \section{Strengths}
         \resumeItemListStart
-            \item{Ability to work together in a team and individually}
-            \item{Ability to perform multiple tasks}
-            \item{Quick Learner}	
+         \item{Ability to work together in a team and individually}
+         \item{Ability to perform multiple tasks}
+         \item{Quick Learner}	
         \resumeItemListEnd
     
     \section{Hobbies}
         \resumeItemListStart
-            \item{Watching anime}
-            \item{Drawing anime characters}
-            \item{Q and A on Stack Overflow(Reputation: %(rep)s, Top %(keys[0])s percent in %(data['5'])s, Top %(keys[1])s percent in %(data['20'])s)}
+         \item{Watching anime}
+         \item{Drawing anime characters}
+         \item{Q and A on Stack Overflow(Reputation: %(rep)s, Top %(keys[0])s percent in %(data['5'])s, Top %(keys[1])s percent in %(data['20'])s)}
         \resumeItemListEnd
     \end{document}
     ''' % {'rep': reputation, 'keys[0]':  format(keys[0]), "data['5']": format(data['5']), 'keys[1]': format(keys[1]), "data['20']": format(data['20'])}
