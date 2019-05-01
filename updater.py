@@ -7,6 +7,7 @@ def update_resume():
     repurl = 'https://api.stackexchange.com/2.2/users/8437974?order=desc&sort=reputation&site=stackoverflow'
     result = requests.get(repurl)
     reputation = result.json()['items'][0]['reputation']
+    print("Reputation: ",reputation)
 
     url = 'https://stackoverflow.com/users/story/8437974'
     page = requests.get(url)
@@ -19,9 +20,7 @@ def update_resume():
     for i, j in zip(numbers, tags):
         data[i.next_element] = j.text
     keys = list(data.keys())
-
-    profile_temp_soup = soup.find('div', {'id': 'user-card'})
-    print(profile_temp_soup)
+    print(data)
 
     tex = r'''
     \documentclass[letterpaper, 11pt]{article}
@@ -213,7 +212,10 @@ def update_resume():
     \end{document}
     ''' % {'rep': reputation, 'keys[0]':  format(keys[0]), "data['5']": format(data['5']), 'keys[1]': format(keys[1]), "data['20']": format(data['20'])}
 
-    ltx = requests.get(f'https://latexonline.cc/compile?text={quote_plus(tex)}&force=true')
+    try:
+        ltx = requests.get(f'https://latexonline.cc/compile?text={quote_plus(tex)}&force=true')
+    except ValueError:
+        print("Error")
     with open('vaibhav_resume.pdf', 'wb') as f:
         print(ltx.content)
         f.write(ltx.content)
