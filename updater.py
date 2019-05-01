@@ -175,7 +175,7 @@ def update_resume():
             \resumeItemListEnd
             {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
           \resumeSubheading
-            \href{https://www.github.com/GermaVinsmoke/Reactize}{Reactize}
+            {\href{https://www.github.com/GermaVinsmoke/Reactize}{Reactize}}
             {\color{lightGray}Personal project}
             {FrontEnd Development}
             {\color{lightGray}March 2019}
