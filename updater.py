@@ -170,7 +170,7 @@ def update_resume():
             {Website Development}
             {\color{lightGray}Jan 2019 - Present}
             \resumeItemListStart
-             \item{Live streaming web based app in order to enhance the learning of students with features like live lectures, discussion forms and content sharing}
+             \item{Live streaming web-based app in order to enhance the learning of students with features like live lectures, discussion forums and content sharing}
              \vspace{-1.5mm}
             \resumeItemListEnd
             {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
