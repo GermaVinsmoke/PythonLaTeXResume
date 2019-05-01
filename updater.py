@@ -145,17 +145,17 @@ def update_resume():
     \section{Projects}
         \resumeSubHeadingListStart
           \resumeSubheading
-            {Phrase Generator}
+            {\href{https://github.com/GermaVinsmoke/PhraseMakerJava}{Phrase Generator}}
             {\color{lightGray}Personal project}
             {Genetic Algorithm}
             {\color{lightGray}April 2018 - June 2018}
             \resumeItemListStart
-             \item{Generates a desired phrase with the help of {\textbf {Selection}}, {\textbf {Crossover}} and {\textbf{Mutation}}}
+             \item{Generates the desired phrase with the help of {\textbf {Selection}}, {\textbf {Crossover}} and {\textbf{Mutation}}}
              \vspace{-1.5mm}
             \resumeItemListEnd
-            {\color{darkGray}Technologies: Java}
+            {\color{darkGray}Technology: Java}
           \resumeSubheading
-            {Movie Rating Analysis}
+            {\href{https://github.com/GermaVinsmoke/Movie-Rating-Analysis}{Movie Rating Analysis}}
             {\color{lightGray}Personal project}
             {Web Scraping and IMDb API}
             {\color{lightGray}Oct 2018 - Present}
@@ -175,7 +175,7 @@ def update_resume():
             \resumeItemListEnd
             {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
           \resumeSubheading
-            {Reactize}
+            {\href{https://github.com/GermaVinsmoke/Reactize}{Reactize}}
             {\color{lightGray}Personal project}
             {FrontEnd Development}
             {\color{lightGray}March 2019}
