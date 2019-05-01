@@ -145,7 +145,7 @@ def update_resume():
     \section{Projects}
         \resumeSubHeadingListStart
           \resumeSubheading
-            {\href{https://github.com/GermaVinsmoke/PhraseMakerJava}{Phrase Generator}}
+            {\href{https://www.github.com/GermaVinsmoke/PhraseMakerJava}{Phrase Generator}}
             {\color{lightGray}Personal project}
             {Genetic Algorithm}
             {\color{lightGray}April 2018 - June 2018}
@@ -155,7 +155,7 @@ def update_resume():
             \resumeItemListEnd
             {\color{darkGray}Technology: Java}
           \resumeSubheading
-            {\href{https://github.com/GermaVinsmoke/Movie-Rating-Analysis}{Movie Rating Analysis}}
+            {\href{https://www.github.com/GermaVinsmoke/Movie-Rating-Analysis}{Movie Rating Analysis}}
             {\color{lightGray}Personal project}
             {Web Scraping and IMDb API}
             {\color{lightGray}Oct 2018 - Present}
@@ -175,7 +175,7 @@ def update_resume():
             \resumeItemListEnd
             {\color{darkGray}Technologies: ReactJS, Redux, MaterializeCSS, CSS, Git, Firebase(Database, Auth.)}
           \resumeSubheading
-            \href{https://github.com/GermaVinsmoke/Reactize}{Reactize}
+            {\href{https://www.github.com/GermaVinsmoke/Reactize}{Reactize}}
             {\color{lightGray}Personal project}
             {FrontEnd Development}
             {\color{lightGray}March 2019}
